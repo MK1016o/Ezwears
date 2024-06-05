@@ -13,7 +13,7 @@ const CategoryNav = ({ name, navigation }) => {
       }}>Shop</a> {'>'}  <a className='cursor-pointer text-md px-3' onClick={() => {
         navigate(`/categories/${navigation}`);
       }}>{name}</a> </h3>
-      <div className="flex justify-between">
+      <div className="flex justify-between flex-col md:flex-row">
         <h2 className='font-semibold text-5xl text-gray-900 px-8'>{name} <span className='text-gray-500'>(5)</span></h2>
         <div className="flex justify-between items-center gap-4">
           <p className='font-semibold text-xl'>Sort by:</p>
