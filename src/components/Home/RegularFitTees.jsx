@@ -35,7 +35,7 @@ const RegularFitTees = () => {
     <div>
       <div>
         <h2 className='py-24 text-center font-semibold text-4xl'>Regular fit Tees</h2>
-        <div className='m-24 grid gap-8 md:grid-cols-3 sm:grid-cols-2'>
+        <div className='m-12 md:mx-24 grid gap-8 md:grid-cols-3 sm:grid-cols-2'>
           {Tshirts.map((tshirt, index) => (
             <TShirt key={index} url={tshirt.url} name={tshirt.name} />
           ))}
