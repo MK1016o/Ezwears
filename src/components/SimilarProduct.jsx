@@ -7,7 +7,7 @@ const SimilarProduct = ({ arr, selected }) => {
       <hr />
       <div>
         <h2 className='py-24 text-center font-semibold text-4xl'>Similar Products</h2>
-        <div className='m-24 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='m-8 md:m-24 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
           {arr
             .filter((el) => el.name !== selected.name)
             .map((tshirt, index) => (
