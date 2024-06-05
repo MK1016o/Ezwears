@@ -15,7 +15,7 @@ const Footer = () => {
         <img src={Logo} alt="logo" className='h-16 w-16 mx-40 cursor-pointer' onClick={() => {
           navigate('/')
         }}/>
-        <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-8 my-8 mx-32'>
+        <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-8 my-8 mx-12 sm:mx-32'>
           <div className='flex flex-col'>
             <h4 className='font-semibold py-3 text-xl'>Contact details</h4>
             <p className='text-gray-700'>Address: 962/1 VISHWAKARMA ROAD <br /> AMBALA CITY 134003</p>
