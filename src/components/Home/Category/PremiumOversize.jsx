@@ -35,11 +35,11 @@ const PremiumOversize = () => {
     return (
         <>
             <Header></Header>
-            <div className='mx-28'>
+            <div className='mx-8 md:mx-28'>
                 <CategoryNav name={"Premium Oversized cotton T-shirt"} navigation={"premium-oversize"}></CategoryNav>
                 <div className="flex justify-between flex-col md:flex-row">
                     <Filter></Filter>
-                    <div className='m-24 gap-8 grid md:grid-cols-1  lg:grid-cols-2 xl:grid-cols-3'>
+                    <div className='m-12 md:m-24 gap-8 grid md:grid-cols-1  lg:grid-cols-2 xl:grid-cols-3'>
                         {Tshirts.map((tshirt, index) => (
                             <TShirt key={index} url={tshirt.url} name={tshirt.name} />
                         ))}
