@@ -64,7 +64,7 @@ const Product = (name, url) => {
             <p className='py-3 font-medium text-xl'>Select Size</p>
             <button className='border-2 px-2 mx-3 text-lg font-medium rounded-sm border-gray-200 hover:bg-gray-900 hover:text-white'>XL</button>
             <button className='border-2 px-2 font-medium text-lg rounded-sm border-gray-200 hover:bg-gray-900 hover:text-white'>SM</button>
-            <div className="flex gap-4 my-8">
+            <div className="flex gap-4 my-8 flex-col md:flex-row">
               <button className='border-2 border-black rounded-md px-16 text-xl font-medium'>Add to Cart</button>
               <button className='px-16 bg-black text-white rounded-md text-xl font-medium'>Buy Now</button>
             </div>
