@@ -9,7 +9,7 @@ const TShirt = ({ url, name }) => {
     }}>
       <img src={url} alt="tshirt" className='h-96 shadow-lg image' />
       <div className='absolute h-8 w-48 bottom-24 flex cart items-center justify-center left-5 md:left-8 lg:left-16 text-white bg-gray-900 rounded-md opacity-0'>
-          <button> Add to Cart </button
+          <button> Add to Cart </button>
       </div>
       <p className='p-2 font-semibold'>{name}</p>
       <div className='flex gap-5 p-2'>
