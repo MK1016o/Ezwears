@@ -1,0 +1,19 @@
+* {
+  font-family: Syne;
+}
+
+.card:hover .cardOverlay {
+  opacity: 1;
+  transition: all 0.25s ease-in;
+}
+
+
+.image:hover {
+  border-radius: 30px;
+  transition: all 0.5s ease-in-out;
+}
+
+.show:hover .cart {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
