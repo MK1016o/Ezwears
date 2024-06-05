@@ -7,7 +7,7 @@ const TShirt = ({ url, name }) => {
     <div className='flex flex-col show relative' onClick={() => {
       navigate('/product', {state: {name: name, url: url}});
     }}>
-      <img src={url} alt="tshirt" className='h-96 w-80 shadow-lg image' />
+      <img src={url} alt="tshirt" className='h-96 shadow-lg image' />
       <div className='absolute h-8 w-48 bottom-24 flex cart items-center justify-center left-5 md:left-8 lg:left-16 text-white bg-gray-900 rounded-md opacity-0'>
           <button> Add to Cart </button
       </div>
