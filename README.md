@@ -24,7 +24,7 @@ This is a clone of the Ezwears e-commerce website, built using React and Tailwin
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/mk-1016o/Ezwears.git
+   git clone https://github.com/MK1016o/Ezwears.git
 
 2. **Navigate to the project directory:**
 
