@@ -42,7 +42,7 @@ const Product = (name, url) => {
   return (
     <>
       <Header></Header>
-      <div className="mx-28">
+      <div className="mx-8 md:mx-28">
         <h3 className='py-10 px-5'><a className='cursor-pointer text-md px-3' onClick={() => {
           navigate('/')
         }}>Home</a> {'>'} <a className='cursor-pointer text-md px-3' onClick={() => {
@@ -53,7 +53,7 @@ const Product = (name, url) => {
           <a className='text-md px-3'>{location.state.name}</a>
         </h3>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          <img src={location.state.url} alt="image" className='h-96 m-20 shadow-lg' />
+          <img src={location.state.url} alt="image" className='h-96 md:m-20 shadow-lg' />
           <div className="m-8">
             <h3 className='font-semibold text-2xl py-2'>{location.state.name}</h3>
             <p className='text-xl font-medium text-gray-800 pb-4'>Per Piece <br /></p>
